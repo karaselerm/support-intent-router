@@ -1,0 +1,29 @@
+# Python и локальные окружения
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Данные, модели и локальные эксперименты
+data/raw/
+data/processed/
+artifacts/
+mlruns/
+*.joblib
+*.pkl
+.ipynb_checkpoints/
+
+# Секреты и файлы ОС
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
